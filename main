@@ -1,0 +1,66 @@
+:root {
+    /*typography*/
+    --display-xl: clamp(4.6rem, 3rem + 8vw, 9.4rem);
+    --h1: clamp(4.6rem, 3.333rem + 6.33vw, 8.4rem);
+    --h2: clamp(3.8rem, 2.6rem + 6vw, 7.4rem);
+    --h3: clamp(2.8rem, 2.533rem + 1.33vw, 3.6rem);
+    --h4: clamp(2.4rem, 2.2rem + 1vw, 3rem);
+    --h5: clamp(1.9rem, 1.867rem + 0.17vw, 2rem);
+    --body-lg: clamp(1.8rem, 1.733rem + 0.33vw, 2rem);
+    --body-base: clamp(1.6rem, 1.567rem + 0.17vw, 1.7rem);
+    --body-sm: clamp(1.5rem, 1.467rem + 0.17vw, 1.6rem);
+    --button-lg: clamp(2.4rem, 2.2rem + 1vw, 3rem);
+    --button-base: clamp(1.6rem, 1.567rem + 0.17vw, 1.7rem);
+    --button-sm: clamp(1.5rem, 1.467rem + 0.17vw, 1.6rem);
+    --text-caption: var(--body-sm);
+
+    /*Spacing*/
+    --space-2: 0.2rem;
+    --space-4: clamp(0.2rem, 0.133rem + 0.33vw, 0.4rem);
+    --space-8: clamp(0.4rem, 0.267rem + 0.67vw, 0.8rem);
+    --space-14: clamp(1.2rem, 1rem + 1vw, 1.4rem);
+    --space-24: clamp(2rem, 1.867rem + 0.67vw, 2.4rem);
+    --space-28: clamp(1.4rem, 0.933rem + 2.33vw, 2.8rem);
+    --space-34: clamp(2.8rem, 2.6rem + 1vw, 3.4rem);
+    --space-48: clamp(3.8rem, 3.467rem + 1.67vw, 4.8rem);
+    --space-58: clamp(4.8rem, 4.467rem + 1.67vw, 5.8rem);
+    --space-68: clamp(5.8rem, 5.467rem + 1.67vw, 6.8rem);
+    --space-88: clamp(6.8rem, 6.133rem + 3.33vw, 8.8rem);
+    --space-98: clamp(6.8rem, 5.8rem + 5vw, 9.8rem);
+    --space-120: clamp(8.8rem, 7.733rem + 5.33vw, 12rem);
+    --space-180: clamp(9.8rem, 7.067rem + 13.67vw, 18rem);
+
+    --card-gap: var(--space-24);
+    --card-gap--sm: var(--space-14);
+    --content-gap--sm: var(--space-34);
+    --content-gap: var(--space-48);
+    --section-gap: var(--space-68);
+    --grid-gap: var(--space-24);
+    --section-padding: clamp(1.2rem, 0.533rem + 3.33vw, 3.2rem);
+
+    --grid-1: repeat(1, minmax(0, 1fr));
+    --grid-2: repeat(2, minmax(0, 1fr));
+    --grid-3: repeat(3, minmax(0, 1fr));
+
+    --w42: clamp(32rem, 28.4rem + 18vw, 42.8rem);
+    --w52: clamp(32rem, 25.333rem + 33.33vw, 52rem);
+    --w92: clamp(32rem, 12rem + 100vw, 92rem);
+    --w82: clamp(32rem, 15.333rem + 83.33vw, 82rem);
+    --w72: clamp(32rem, 18.667rem + 66.67vw, 72rem);
+    --w62: clamp(32rem, 22rem + 50vw, 62rem);
+    --w1064: clamp(3.2rem, -31.2rem + 172vw, 106.4rem);
+
+    /*padding*/
+    --pad-2: 0.2rem;
+    --pad-4: 0.4rem;
+    --pad-8: clamp(0.6rem, 0.533rem + 0.33vw, 0.8rem);
+    --pad-12: clamp(1rem, 0.933rem + 0.33vw, 1.2rem);
+    --pad-14: clamp(1.2rem, 1.133rem + 0.33vw, 1.4rem);
+    --pad-18: clamp(1.4rem, 1.267rem + 0.67vw, 1.8rem);
+    --pad-22: clamp(1.8rem, 1.667rem + 0.67vw, 2.2rem);
+    --pad-24: clamp(2rem, 1.867rem + 0.67vw, 2.4rem);
+    --pad-28: clamp(2.4rem, 2.267rem + 0.67vw, 2.8rem);
+    --pad-32: clamp(2.8rem, 2.667rem + 0.67vw, 3.2rem);
+    --pad-36: clamp(3rem, 2.8rem + 1vw, 3.6rem);
+    --pad-88: clamp(6.4rem, 5.345rem + 5.27vw, 8.8rem);
+}
